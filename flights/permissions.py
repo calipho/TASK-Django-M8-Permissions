@@ -1,7 +1,7 @@
 import datetime
 from email import message
 from rest_framework.permissions import BasePermission
-from django.contrib.auth.models import User
+from datetime import timedelta
 
 
 class HasAuthority(BasePermission):
